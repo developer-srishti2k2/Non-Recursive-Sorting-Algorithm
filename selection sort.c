@@ -1,10 +1,11 @@
 #include <stdio.h>
 void main()
 {
-  int array[100], n, c, d, position, t;
+  int n, c, d, position, t;
 
   printf("Enter number of elements\n");
   scanf("%d", &n);
+  int array[n];
 
   printf("Enter %d integers\n", n);
 
